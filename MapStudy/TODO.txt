@@ -1,0 +1,7 @@
+﻿-Prevent teacher from quizzing countries with no capitals e.g. Singapore
+-Add dictionary pronunciation spelling in exercise box
+-Add Problems where the country isnt pronounced
+-On problems where pronounciation is active add a small linked label to play again
+-Add Helpful information from wikipedia in help box
+-Add loading animation when loading map
+-Implement Statistics Form
