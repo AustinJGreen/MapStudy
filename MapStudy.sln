@@ -1,32 +1,41 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapStudy", "MapStudy\MapStudy.csproj", "{7D34CA9F-6718-4428-B5CC-E780BF4D55FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapStudyResources", "MapStudyResources\MapStudyResources.csproj", "{45BD0465-382C-4665-B900-67FF8CC911BB}"
-EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MapStudyInstaller", "MapStudyInstaller\MapStudyInstaller.vdproj", "{339FF600-0872-450B-8617-29D6CA0D171F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapGenerator", "MapGenerator\MapGenerator.csproj", "{45BD0465-382C-4665-B900-67FF8CC911BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7D34CA9F-6718-4428-B5CC-E780BF4D55FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7D34CA9F-6718-4428-B5CC-E780BF4D55FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D34CA9F-6718-4428-B5CC-E780BF4D55FE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7D34CA9F-6718-4428-B5CC-E780BF4D55FE}.Debug|x86.Build.0 = Debug|Any CPU
 		{7D34CA9F-6718-4428-B5CC-E780BF4D55FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D34CA9F-6718-4428-B5CC-E780BF4D55FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D34CA9F-6718-4428-B5CC-E780BF4D55FE}.Release|x86.ActiveCfg = Release|Any CPU
+		{7D34CA9F-6718-4428-B5CC-E780BF4D55FE}.Release|x86.Build.0 = Release|Any CPU
 		{45BD0465-382C-4665-B900-67FF8CC911BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{45BD0465-382C-4665-B900-67FF8CC911BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45BD0465-382C-4665-B900-67FF8CC911BB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{45BD0465-382C-4665-B900-67FF8CC911BB}.Debug|x86.Build.0 = Debug|Any CPU
 		{45BD0465-382C-4665-B900-67FF8CC911BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45BD0465-382C-4665-B900-67FF8CC911BB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{339FF600-0872-450B-8617-29D6CA0D171F}.Debug|Any CPU.ActiveCfg = Debug
-		{339FF600-0872-450B-8617-29D6CA0D171F}.Release|Any CPU.ActiveCfg = Release
+		{45BD0465-382C-4665-B900-67FF8CC911BB}.Release|x86.ActiveCfg = Release|Any CPU
+		{45BD0465-382C-4665-B900-67FF8CC911BB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFA9F5E6-15D3-4C28-BD31-130C82B7A95F}
 	EndGlobalSection
 EndGlobal
